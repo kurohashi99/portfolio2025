@@ -21,7 +21,7 @@ import Hero from '../components/Hero.astro';
 			</Hero>
 
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">Qui je suis ? </h2>
 				<div class="content">
 					<p>
 						J'ai débuté en tant que commercial après l'obtention de mon Baccalauréat, 
@@ -54,6 +54,26 @@ import Hero from '../components/Hero.astro';
 			</section>
 		</main>
 
+
+		<section id="cv-section" style="text-align: center; padding: 20px; background-color: #f9f9f9;">
+			<h2>Découvrez mon CV</h2>
+			<p>Explorez mon parcours professionnel et téléchargez mon CV au format PDF.</p>
+		
+			<!-- Image représentant le CV -->
+			<a href="/assets/pdf-fileme/CV IT ALTERNANCE .pdf" target="_blank">
+				<img src="/assets/CV IT ALTERNANCE .png" alt="Aperçu de mon CV" 
+					 style="max-width: 	80%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);" />
+			</a>
+		
+			<!-- Bouton de téléchargement -->
+			<div style="margin-top: 15px;">
+				<a href="/assets/pdf-fileme/CV IT ALTERNANCE .pdf" download 
+				   style="display: inline-block; padding: 10px 20px; font-size: 16px; background-color: #007BFF; color: #fff; text-decoration: none; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+					Télécharger le CV
+				</a>
+			</div>
+		</section>
+		
 		<ContactCTA />
 	</div>
 </BaseLayout>

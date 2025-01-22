@@ -1,8 +1,8 @@
 ---
-title: CJ AVOCATS
+title: Dev
 publishDate: 2025-01-10 00:00:00
 img: /assets/cjavocat.PNG
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: voir avocats
 description: |
   Ce site vitrine a été conçu en parfaite adéquation avec les besoins du client, des fonctionnalité basique, respect de la charte graphique.
 tags:

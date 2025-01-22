@@ -1,5 +1,5 @@
 ---
-title: Luc médard et saveurs 
+title: Stratégie de communication
 publishDate: 2025-01-22 00:00:00
 img: /assets/lucresto.PNG
 img_alt: voir restaurant 
@@ -27,5 +27,6 @@ La gestion des réseaux sociaux pour engager la communauté et partager des mise
 
 La création de campagnes de marketing par e-mail pour fidéliser la clientèle existante et informer des nouvelles offres.
 
-####Création des Cartes du Menu
+#### Création des Cartes du Menu
+
 J'ai également conçu les cartes du menu, en veillant à ce qu'elles soient visuellement attrayantes et faciles à lire. Les cartes ont été élaborées en harmonie avec l'identité visuelle du restaurant, en mettant en avant les spécialités culinaires et les ingrédients de qualité. J'ai travaillé en étroite collaboration avec le chef pour s'assurer que chaque plat était présenté de manière attrayante et appétissante.
