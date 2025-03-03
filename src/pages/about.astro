@@ -21,31 +21,29 @@ import Hero from '../components/Hero.astro';
 			</Hero>
 
 			<section>
-				<h2 class="section-title">Qui je suis ? </h2>
+				<h2 class="section-title">Mon Offre </h2>
 				<div class="content">
-					<p>
-						J'ai débuté en tant que commercial après l'obtention de mon Baccalauréat, 
-						avec l'idée d'utiliser mes compétences pour vendre des solutions numériques. 
-						Par la suite, je me suis réorienté vers la tech, en suivant une formation en domotique 
-						J'ai ensuite obtenu la certification TSSR (Technicien supérieur en systèmes et réseaux)
-						et effectué mon stage de fin d'études en tant qu'administrateur réseau Souhaitant approfondir mes connaissances,
-						actuellement a la recherche d'un contrat d'apprentissage pour une période de 24 a 36mois.  	
+					
+				<h2> Description des services :</h2>
+
+					 <p> 
+
+						Tech : Maintenance, support technique, configuration des systèmes, gestion de projets IT. </p>
+						
+						<p> DevOps : Automatisation des processus, CI/CD, gestion des infrastructures cloud, surveillance et optimisation des performances. </p>
+						
+						<p> Réseau : Configuration et gestion des réseaux, sécurité réseau, dépannage et support. </p>
+						
+						<p> Développement Web : Création de sites web, développement d'applications web, optimisation SEO.</p>
+						
+						<p> Intelligence Artificielle : Développement de modèles IA, analyse de données, implémentation de solutions basées sur l'IA.</p>
+						
+						
 					</p>
 					<p>
-						Ce qui me caractérise le plus est ma capacité d'adaptation et ma capacité à prendre du recul en fonction de certaine situation.
-					</p>
-					<p>
-						Je sais que ma présence et ma capacité à proposer des solutions stratégiques sont des atouts essentiels, 
-						incontournables pour assurer la réussite d'un projet.
-					</p>
-				</div>
+					
 			</section>
-			<section>
-				<h2 class="section-title">Diplomes</h2>
-				<div class="content">
-					<p>Bac+3 Technicien suppérieur en systèmes et réseaux (RNCP), BTS Cybersécurité  </p>
-				</div>
-			</section>
+		
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
@@ -60,14 +58,14 @@ import Hero from '../components/Hero.astro';
 			<p>Explorez mon parcours professionnel et téléchargez mon CV au format PDF.</p>
 		
 			<!-- Image représentant le CV -->
-			<a href="/assets/pdf-fileme/CV IT ALTERNANCE .pdf" target="_blank">
-				<img src="/assets/CV IT ALTERNANCE .png" alt="Aperçu de mon CV" 
-					 style="max-width: 	80%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);" />
+			<a href="/assets/cvfreel.jpg" target="_blank">
+				<img src="/assets/cvfreel.jpg" alt="Aperçu de mon CV" 
+					 style="max-width: 80%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);" />
 			</a>
 		
 			<!-- Bouton de téléchargement -->
 			<div style="margin-top: 15px;">
-				<a href="/assets/pdf-fileme/CV IT ALTERNANCE .pdf" download 
+				<a href="dist/assets/pdf-fileme/CV_IT_FREELANCE.pdf" download 
 				   style="display: inline-block; padding: 10px 20px; font-size: 16px; background-color: #007BFF; color: #fff; text-decoration: none; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
 					Télécharger le CV
 				</a>
@@ -75,63 +73,61 @@ import Hero from '../components/Hero.astro';
 		</section>
 		
 		<ContactCTA />
-	</div>
-</BaseLayout>
-
-<style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
-
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
-
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
-
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
-
-	.content {
-		grid-column: 2 / 4;
-	}
-
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
-
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
-
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
-
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
-
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
-</style>
+		
+		<style>
+			.about {
+				display: flex;
+				flex-direction: column;
+				gap: 3.5rem;
+			}
+		
+			img {
+				margin-top: 1.5rem;
+				border-radius: 1.5rem;
+				box-shadow: var(--shadow-md);
+			}
+		
+			section {
+				display: flex;
+				flex-direction: column;
+				gap: 0.5rem;
+				color: var(--gray-200);
+			}
+		
+			.section-title {
+				grid-column-start: 1;
+				font-size: var(--text-xl);
+				color: var(--gray-0);
+			}
+		
+			.content {
+				grid-column: 2 / 4;
+			}
+		
+			.content :global(a) {
+				text-decoration: 1px solid underline transparent;
+				text-underline-offset: 0.25em;
+				transition: text-decoration-color var(--theme-transition);
+			}
+		
+			.content :global(a:hover),
+			.content :global(a:focus) {
+				text-decoration-color: currentColor;
+			}
+		
+			@media (min-width: 50em) {
+				.about {
+					display: grid;
+					grid-template-columns: 1fr 60% 1fr;
+				}
+		
+				.about > :global(:first-child) {
+					grid-column-start: 2;
+				}
+		
+				section {
+					display: contents;
+					font-size: var(--text-lg);
+				}
+			}
+		</style>
